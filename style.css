@@ -18,8 +18,10 @@ body{
 /*Div do menu*/
 .menu-container{
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
     max-width: 1160px;
    
     
@@ -33,6 +35,9 @@ body{
     display:inline-block;
     
 }
+ul li a:hover{
+    border-bottom:  2px solid rebeccapurple;
+}
 .menu-nav a{
     display: block;
     padding: 10px;
@@ -43,4 +48,22 @@ body{
 
 ul{
     list-style: none;
+}
+/*Area introdutoria do site*/
+
+.intro{
+  background-image: url('../assets/images/imagempincipal.jpg');  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+  color: white;
+}
+.intro h2{
+ font-size: 3em;
+ text-transform: uppercase;
+}
+.intro p{
+    font-size: 1.125em;
 }
