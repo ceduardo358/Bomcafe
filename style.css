@@ -1,0 +1,46 @@
+/*Reset*/
+body, h1, h2, h2, p ,ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #252525;
+}
+/*Menu*/
+
+.menu{
+    
+    background: #252525;
+    padding: 20px;
+}
+/*Div do menu*/
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1160px;
+   
+    
+}
+.logo{
+   
+    color: white;
+    display: block;
+}
+.menu-nav li{
+    display:inline-block;
+    
+}
+.menu-nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.125em;
+}
+
+ul{
+    list-style: none;
+}
