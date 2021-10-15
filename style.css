@@ -176,16 +176,41 @@ h2.produtos-ba::before{
 /*Locais*/
 
 .locais {
-    background: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 1160px;
     margin: 0 auto;
-    padding: 60px 0;
-}
-.locais-item img{
-    width: 460px;
     display: flex;
+    flex-direction: column;
     
+    
+}
+.locais-item{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+.locais-texto{
+  
+  max-width: 420px;
+  padding: 40px 20px;
+
+}
+.locais-texto h2{
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+.locais-texto p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    max-width: 360px;
+    margin-bottom: 40px;
+}
+.locais-texto a {
+    font-size: 1,125em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 3px solid;
+    color: #252525;
+    padding: 10px 20px;
 }
